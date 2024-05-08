@@ -31,6 +31,6 @@ if ($result->num_rows > 0) {
         "data" => $history
     ));
 } else {
-    // Si no se encontraron resultados, devolver una respuesta JSON indicando el fracaso
+    // Si no se encontraron resultados, devolver una respuesta JSON indicando el fracaso.
     echo json_encode(array("success" => false));
 }
