@@ -14,9 +14,9 @@ function get_db_config() {
     
     // Configuración para entorno de producción
     $config['production'] = array(
-        'server' => "productionsite.com",
-        'user' => "production_user",
-        'password' => "production_password",
+        'server' => "devzamora.com",
+        'user' => "JZ008US00002",
+        'password' => "Zamora97.",
         'database' => "db_inventory"
     );
     
