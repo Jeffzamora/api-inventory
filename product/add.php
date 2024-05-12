@@ -31,14 +31,14 @@ if ($result_check_code->num_rows > 0) {
     // Si no existe un producto con el mismo código, insertar el nuevo producto
     $sql = "INSERT INTO tb_product SET
         code='$code',
-        name='$name',        
+        name='$name',
         stock='$stock',
         unit='$unit',
         price='$price',
         created_at='$createdAt',
         updated_at='$updatedAt',
-        lab = '$lab';,
-        exp = '$exp';
+        lab = '$lab',
+        exp = '$exp'
         ";
     $result = $connect->query($sql);
     
