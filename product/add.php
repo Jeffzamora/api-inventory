@@ -8,6 +8,7 @@ $name = $_POST['name'];
 $stock = $_POST['stock'];
 $unit = $_POST['unit'];
 $price = $_POST['price'];
+$lab = $_POST['lab'];
 $exp = $_POST['exp'];
 
 // Obtener la fecha y hora actual
@@ -36,6 +37,7 @@ if ($result_check_code->num_rows > 0) {
         price='$price',
         created_at='$createdAt',
         updated_at='$updatedAt',
+        lab = '$lab';,
         exp = '$exp';
         ";
     $result = $connect->query($sql);
